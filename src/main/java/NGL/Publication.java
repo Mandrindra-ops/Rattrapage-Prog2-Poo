@@ -19,6 +19,7 @@ public class Publication{
 }
 
 public List<Message> ListOfmessagePublier() {
-    Publication = ArrayList<Message>
+    Publication = ArrayList<Message>;
+
 }
 
