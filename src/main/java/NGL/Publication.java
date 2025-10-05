@@ -5,24 +5,20 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-import java.time.LocalDateTime;
+
+import java.util.ArrayList;
 import java.util.List;
 
 @AllArgsConstructor
 @Setter
 @Getter
 @ToString
-public class Publication {
+public class Publication{
     private int id;
     private Utilisateur lien;
-    private List<Message> messages;
-   /* @Test
-   /* void PublicationTest(){
-        Publication publication = new Publication(
-
-        );
-    }*/
 }
-public List<> publication{
 
+public List<Message> ListOfmessagePublier() {
+    Publication = ArrayList<Message>
 }
+
